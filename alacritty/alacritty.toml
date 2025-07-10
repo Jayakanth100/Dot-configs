@@ -1,0 +1,46 @@
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 18.0
+normal={family="firacode nerd font", style="Regular"}
+
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "Return"
+mods = "Super|Shift"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[selection]
+save_to_clipboard = false
+
+[terminal.shell]
+program = "/bin/zsh"
+
+[window]
+opacity = 0.8
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.padding]
+x = 10
+y = 10
+
+[general]
+import = ["~/.config/alacritty/ayu_dark.toml"]
+
+[terminal]
+
+[[keyboard.bindings]]
+key = "Q"
+mods = "Alt"
+action = "SpawnNewInstance"
+
+

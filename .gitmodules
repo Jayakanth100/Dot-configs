@@ -1,0 +1,3 @@
+[submodule "tmux/plugins/tmux-kanagawa"]
+	path = tmux/plugins/tmux-kanagawa
+	url = https://github.com/repo-url/tmux-kanagawa
