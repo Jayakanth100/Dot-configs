@@ -1,4 +1,5 @@
 require("config.lazy")
+require("config.lsp")
 
 vim.keymap.set("n", "<space><space>x", "<cmd>source %<CR>")
 vim.keymap.set("n", "<space>x", ":.lua<CR>")

@@ -4,7 +4,8 @@ TERM = "xterm-256color"
 
 [font]
 size = 13.0
-normal={family="firacode nerd font", style="Regular"}
+# normal={family="firacode nerd font", style="Regular"}
+normal={family="jetbrains mono nerd font", style="Regular"}
 
 
 [[keyboard.bindings]]
